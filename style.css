@@ -1,0 +1,51 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRAZB6yPcG-e90AcuEZjLF-t33NjJh6ggrRQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#hour, #min, #sec, #dot{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.4%;
+    height: 17%;
+    top: 40%;
+    left: 49.2%;
+    opacity: 0.8;
+    background-color: blue;
+}
+#min{
+    width: 1%;
+    height: 20%;
+    top: 36%;
+    left: 49.6%;
+    opacity: 0.8;
+    
+}
+
+#sec{
+ 
+    width: 0.4%;
+    height: 27%;
+    top: 30%;
+    left: 49.8%;
+   
+    background-color: rgb(252, 3, 3);
+}
+
+#dot{
+    width: 3.5%;
+    height: 4%;
+    top: 54.5%;
+    left: 48.2%;
+    /* opacity: 0.8; */
+    border-radius: 50%;
+
+}
